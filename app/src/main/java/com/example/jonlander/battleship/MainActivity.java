@@ -26,7 +26,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.credits:
                 Intent creditIntent = new Intent(MainActivity.this, CreditActivity.class);
                 startActivity(creditIntent);
-
         }
     }
 }
